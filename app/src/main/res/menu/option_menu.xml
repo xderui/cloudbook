@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/menu_search"
+        android:orderInCategory="1"
+        android:title="搜索菜单"
+        android:icon="@android:drawable/ic_menu_search"
+        app:showAsAction="never"
+        app:actionViewClass="android.widget.SearchView"/>
+    <item android:id="@+id/menu_share"
+        android:title="分享笔记"
+        android:icon="@android:drawable/ic_menu_share"
+        android:orderInCategory="1"
+        app:showAsAction="never"
+        app:actionProviderClass="android.widget.ShareActionProvider"/>
+    <item android:id="@+id/menu_collect"
+        android:orderInCategory="1"
+        android:title="收藏笔记"
+        android:icon="@android:drawable/btn_star_big_on"
+        app:showAsAction="never|collapseActionView"/>
+</menu>

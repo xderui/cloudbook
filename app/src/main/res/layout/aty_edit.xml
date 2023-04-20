@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#11CFFF"
+        android:orientation="horizontal">
+        <!--        android:background="@drawable/imageview_background"-->
+
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:src="@drawable/back" />
+
+        <ImageView
+            android:id="@+id/accessory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="end"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:src="@drawable/accessory" />
+
+        <ImageView
+            android:id="@+id/undo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/redo"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/repeal_left" />
+
+        <ImageView
+            android:id="@+id/redo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/accessory"
+            android:adjustViewBounds="true"
+            android:padding="10dp"
+            android:scaleType="fitStart"
+            android:src="@drawable/repeal_right" />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/background1"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/edt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:gravity="left"
+            android:hint="标题"
+            android:textSize="14pt"
+            android:textStyle="bold"
+            android:background="@null"/>
+
+        <EditText
+            android:id="@+id/edt_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_weight="60"
+            android:gravity="top"
+            android:layout_gravity="top"
+            android:textSize="10pt"
+            android:background="@null"/>
+    </LinearLayout>
+</LinearLayout>

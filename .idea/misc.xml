@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/drawable/ic_head.xml" value="0.221875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/drawable/ic_setting.xml" value="0.221875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/activity_main.xml" value="0.1453125" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/activity_style2.xml" value="0.27708333333333335" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/aty_bin.xml" value="0.67" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/aty_edit.xml" value="0.22552083333333334" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/aty_navigation.xml" value="0.1" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/delete.xml" value="0.21875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/forget_passwd.xml" value="0.5" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/forget_passwd_2.xml" value="0.4" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/fragment_notifications.xml" value="0.25364583333333335" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/mainwin_grid_cell.xml" value="0.21875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/mainwindow_grid.xml" value="0.36614583333333334" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/navi_home.xml" value="0.1" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/navigationview_header.xml" value="0.20572916666666666" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/register.xml" value="0.536" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/scrollbar.xml" value="0.25" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/sider_.xml" value="0.25364583333333335" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/test_layout.xml" value="0.36614583333333334" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/toolbar.xml" value="0.21875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/top_navigator.xml" value="0.21875" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/win_gird_new.xml" value="0.20572916666666666" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/layout/win_grid.xml" value="0.33" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/menu/bin_menu.xml" value="0.20520833333333333" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/menu/bottom_nav_menu.xml" value="0.25364583333333335" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/menu/menu_navigation.xml" value="0.20572916666666666" />
+        <entry key="..\:/codes/Android/NoteBook/app/src/main/res/menu/navigation_menu.xml" value="0.25364583333333335" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
